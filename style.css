@@ -84,8 +84,10 @@ header button {
 
 .meals {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.15);
-  border-radius: 3px;
+  cursor: pointer;
+  margin: 1.5rem;
   overflow: hidden;
+  border-radius: 3px;
 }
 .meal-header {
   position: relative;
@@ -96,15 +98,19 @@ header button {
   background-color: #dad2c2;
   padding: 0.25rem 1rem;
   border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 .meal-header img {
-  height: 300px;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
 }
 
 .meal-body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
 }
 .meal-body h4 {
   margin: 0;
